@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#space{
+    position: relative;
+    background:white;
+	width: 3000px;
+    height: 3000px;
+    zoom: 1;
+}
+
+#drawing{
+    position: absolute;
+    width:3000px;
+    height:3000px;
+}
+.obj{
+	position: absolute;
+	border: solid rgb(0, 0, 0, 0.0);
+}
+.obj:hover{
+    border: 3px solid rgb(0, 0, 0, 0.5);
+}
+.stroke{
+    position: absolute;
+}
