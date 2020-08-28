@@ -27,3 +27,9 @@
 .stroke{
     position: absolute;
 }
+#space .obj .name{
+    display:none;
+}
+#space .obj .description{
+    display:none;
+}
